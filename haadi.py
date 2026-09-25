@@ -1,10 +1,12 @@
 def relations(n, numbers):
     result = []
     
+    if n == 0:
+        for num in numbers:
+            result.append(num == 0)
+        return result
+    
     for num in numbers:
-        if num == 0:
-            result.append(True)
-        else:
-            result.append(num % n == 0)
+        result.append(num % n == 0)
     
     return result
