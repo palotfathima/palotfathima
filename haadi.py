@@ -1,9 +1,10 @@
-def first_letters(strings):
-    result = ""
+def relations(n, numbers):
+    result = []
     
-    for s in strings:
-        if s == "":
-            raise ValueError
-        result += s[0]
+    for num in numbers:
+        if num == 0:
+            result.append(True)
+        else:
+            result.append(num % n == 0)
     
     return result
