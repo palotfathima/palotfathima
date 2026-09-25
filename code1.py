@@ -1,9 +1,9 @@
-def first_negative_value_index(numbers):
+def first_space(text):
     i = 0
 
-    while i < len(numbers):
-        if numbers[i] < 0:
-            return [numbers[i], i]
+    while i < len(text):
+        if text[i] == ' ':
+            return i
         i += 1
 
     raise ValueError
