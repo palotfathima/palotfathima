@@ -1,12 +1,8 @@
-def relations(n, numbers):
-    result = []
+def first_even_index(numbers):
+    i = 0
     
-    if n == 0:
-        for num in numbers:
-            result.append(num == 0)
-        return result
+    while i < len(numbers):
+        if numbers[i] % 2 == 0:
+            return i
+        i += 1
     
-    for num in numbers:
-        result.append(num % n == 0)
-    
-    return result
