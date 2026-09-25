@@ -1,4 +1,4 @@
-def first__space(text):
+def first_space(text):
     i = 0
 
     while i < len(text):
