@@ -1,5 +1,5 @@
 - 👋 Hi, I’m @palotfathima
-- 👀 I’m interested in photovoltaics, semiconductor materials, sustainability and creative writing
+- 👀 I’m interested in energy systems, photovoltaics, semiconductor materials, sustainability and creative writing
 - 🌱 I’m currently doing my Masters in Energy Science and Technology at IIT Hyderabad 
 - 📫 How to reach me: You can email me at palotfathima@gmail.com
 
